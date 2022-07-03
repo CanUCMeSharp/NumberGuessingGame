@@ -1,0 +1,17 @@
+C:\Users\tomlo\Programming\NumberGuessingGame\bin\Debug\net6.0-windows\NumberGuessingGame.exe
+C:\Users\tomlo\Programming\NumberGuessingGame\bin\Debug\net6.0-windows\NumberGuessingGame.deps.json
+C:\Users\tomlo\Programming\NumberGuessingGame\bin\Debug\net6.0-windows\NumberGuessingGame.runtimeconfig.json
+C:\Users\tomlo\Programming\NumberGuessingGame\bin\Debug\net6.0-windows\NumberGuessingGame.dll
+C:\Users\tomlo\Programming\NumberGuessingGame\bin\Debug\net6.0-windows\NumberGuessingGame.pdb
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.csproj.AssemblyReference.cache
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.MainWindow.resources
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.csproj.GenerateResource.cache
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.AssemblyInfoInputs.cache
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.AssemblyInfo.cs
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.csproj.CoreCompileInputs.cache
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.dll
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\refint\NumberGuessingGame.dll
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.pdb
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.genruntimeconfig.cache
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\ref\NumberGuessingGame.dll
