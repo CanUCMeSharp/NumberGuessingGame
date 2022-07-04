@@ -34,6 +34,7 @@
             this.UIStartBut = new System.Windows.Forms.Button();
             this.UIGuessBox = new System.Windows.Forms.TextBox();
             this.UIGuessBut = new System.Windows.Forms.Button();
+            this.UOHighLowInidicator = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // UOText
@@ -101,11 +102,22 @@
             this.UIGuessBut.Visible = false;
             this.UIGuessBut.Click += new System.EventHandler(this.UIGuessBut_Click);
             // 
+            // UOHighLowInidicator
+            // 
+            this.UOHighLowInidicator.AutoSize = true;
+            this.UOHighLowInidicator.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UOHighLowInidicator.Location = new System.Drawing.Point(102, 263);
+            this.UOHighLowInidicator.Name = "UOHighLowInidicator";
+            this.UOHighLowInidicator.Size = new System.Drawing.Size(0, 35);
+            this.UOHighLowInidicator.TabIndex = 8;
+            this.UOHighLowInidicator.Visible = false;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.UOHighLowInidicator);
             this.Controls.Add(this.UIGuessBut);
             this.Controls.Add(this.UIGuessBox);
             this.Controls.Add(this.UIStartBut);
@@ -126,5 +138,6 @@
         private Button UIStartBut;
         private TextBox UIGuessBox;
         private Button UIGuessBut;
+        private Label UOHighLowInidicator;
     }
 }

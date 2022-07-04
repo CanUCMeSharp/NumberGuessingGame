@@ -13,6 +13,7 @@ namespace NumberGuessingGame
             UIStartBut.Visible = false;
             UIGuessBox.Visible = true;
             UIGuessBut.Visible = true;
+            UOHighLowInidicator.Visible = true;
         }
         private void UIChangeToNavMode()
         {
@@ -21,12 +22,14 @@ namespace NumberGuessingGame
             UIStartBut.Visible = true;
             UIGuessBox.Visible = false;
             UIGuessBut.Visible = false;
+            UOHighLowInidicator.Visible = false;
         }
 
         private void UIStartBut_Click(object sender, EventArgs e)
         {
             UIChangeToGameMode();
             string[] placeholder = { "Placeholder A2", "Placeholder B" };
+            UOHighLowInidicator.Text = "";
             Globals.currentGame = new Game(placeholder);
             Globals.currentGame.startGame();
             changeUOText();
@@ -60,12 +63,23 @@ namespace NumberGuessingGame
             }
             //Warning will never occurr and can be ignored
 #pragma warning disable CS8602 // Dereferenzierung eines möglichen Nullverweises.
-            if (Globals.currentGame.guess(inputNumber))
+            var guessResult = Globals.currentGame.guess(inputNumber);
+            if (guessResult[0])
 #pragma warning restore CS8602 // Dereferenzierung eines möglichen Nullverweises.
             {
                 UOText.Text = "Win! " + Globals.currentGame.PlayerNames[Globals.currentGame.CurrentPlayer] +
-                    Globals.currentGame.WinnerScore.ToString();
+                    ": " +Globals.currentGame.WinnerScore.ToString() + "pt";
+                UIChangeToNavMode();
+                GameSave.save();
+                return;
             }
+            UOText.Text = Globals.currentGame.PlayerNames[Globals.currentGame.CurrentPlayer] + "´s turn";
+            if (guessResult[1])
+            {
+                UOHighLowInidicator.Text = "Number too high";
+                return;
+            }
+            UOHighLowInidicator.Text = "Number too low";
         }
     }
 }
