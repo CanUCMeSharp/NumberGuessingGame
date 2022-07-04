@@ -97,7 +97,8 @@ namespace NumberGuessingGame
     }
     public static class Globals
     {
-        public static int minValue = 0, maxValue = 10;
+        public static int minValue, maxValue;
+        public static List<string>? PlayerNames;
         public static Game? currentGame;
     }
     public static class GameSave

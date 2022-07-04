@@ -28,9 +28,11 @@ namespace NumberGuessingGame
         private void UIStartBut_Click(object sender, EventArgs e)
         {
             UIChangeToGameMode();
-            string[] placeholder = { "Placeholder A2", "Placeholder B" };
+            //string[] placeholder = { "Placeholder A2", "Placeholder B" };
             UOHighLowInidicator.Text = "";
-            Globals.currentGame = new Game(placeholder);
+#pragma warning disable CS8602 // Dereferenzierung eines möglichen Nullverweises.
+            Globals.currentGame = new Game(Globals.PlayerNames.ToArray());
+#pragma warning restore CS8602 // Dereferenzierung eines möglichen Nullverweises.
             Globals.currentGame.startGame();
             changeUOText();
         }
@@ -80,6 +82,17 @@ namespace NumberGuessingGame
                 return;
             }
             UOHighLowInidicator.Text = "Number too low";
+        }
+
+        private void UILeadNav_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UISetNav_Click(object sender, EventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.Show();
         }
     }
 }

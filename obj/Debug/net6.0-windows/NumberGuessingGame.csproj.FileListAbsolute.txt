@@ -17,3 +17,4 @@ C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGue
 C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\ref\NumberGuessingGame.dll
 C:\Users\tomlo\Programming\NumberGuessingGame\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.csproj.CopyComplete
+C:\Users\tomlo\Programming\NumberGuessingGame\obj\Debug\net6.0-windows\NumberGuessingGame.Settings.resources

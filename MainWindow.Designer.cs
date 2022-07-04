@@ -50,22 +50,24 @@
             // UILeadNav
             // 
             this.UILeadNav.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.UILeadNav.Location = new System.Drawing.Point(659, 160);
+            this.UILeadNav.Location = new System.Drawing.Point(659, 227);
             this.UILeadNav.Name = "UILeadNav";
             this.UILeadNav.Size = new System.Drawing.Size(122, 42);
             this.UILeadNav.TabIndex = 3;
             this.UILeadNav.Text = "Leaderboard";
             this.UILeadNav.UseVisualStyleBackColor = false;
+            this.UILeadNav.Click += new System.EventHandler(this.UILeadNav_Click);
             // 
             // UISetNav
             // 
             this.UISetNav.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.UISetNav.Location = new System.Drawing.Point(659, 112);
+            this.UISetNav.Location = new System.Drawing.Point(659, 179);
             this.UISetNav.Name = "UISetNav";
             this.UISetNav.Size = new System.Drawing.Size(122, 42);
             this.UISetNav.TabIndex = 4;
             this.UISetNav.Text = "Settings";
             this.UISetNav.UseVisualStyleBackColor = false;
+            this.UISetNav.Click += new System.EventHandler(this.UISetNav_Click);
             // 
             // UIStartBut
             // 
